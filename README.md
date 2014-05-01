@@ -1,4 +1,4 @@
-ant
+ant algorithm
 ===
 
 awesome algorithm
