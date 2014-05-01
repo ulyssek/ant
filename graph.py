@@ -2,8 +2,6 @@
 
 from random import randint
 
-
-
 class Graph():
 
   DEFAULT_GRAPH = [
@@ -46,13 +44,6 @@ class Graph():
         else:
           graph[i].append(randint(0,8))
     return graph
-      
+
   def print_graph(self):
     print self._graph
-
-  
-
-
-
-
-
