@@ -23,9 +23,6 @@ class Graph():
       self._graph = self._random_graph_()
     else:
       raise Exception("Not implemented yet")
-  
-
-
 
   def _random_graph_(self):
     graph = []
