@@ -24,6 +24,18 @@ class Graph():
     else:
       raise Exception("Not implemented yet")
 
+  ############################################################################################################
+  ## GET FUNCTIONS
+
+  def get_size(self):
+    return len(self._graph)
+
+  def get_graph(self):
+    return self._graph
+
+  ############################################################################################################
+  ## OTHER FUNCTIONS
+
   def _random_graph_(self):
     graph = []
     for i in xrange(self.DEFAULT_SIZE):

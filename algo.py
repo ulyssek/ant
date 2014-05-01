@@ -9,7 +9,7 @@ class Algo():
     self.initial_graph = Graph()
     self.current_graph = self.initial_graph
 
-    ant_position = range(len(self.initial_graph))
+    ant_position = range(self.initial_graph.get_size())
 
     self._graph.print_graph()
     self.ant_position
